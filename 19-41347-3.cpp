@@ -20,7 +20,7 @@ void cloud() { /// Sadia
 
 	GLfloat a=.55f; GLfloat b=.78f;
 
-	glBegin(GL_TRIANGLE_FAN);  ///fill kora
+	glBegin(GL_TRIANGLE_FAN);  ///filling
     glColor3ub(230, 255, 255);
 
     for(i = 0; i <= triangleAmount;i++) {
@@ -165,8 +165,8 @@ void bird() { /// Sadia
     glPopMatrix();
 }
 void tree(){ /// Sadia
-    glLoadIdentity();   ///current matrix k replace kore
-	glMatrixMode(GL_MODELVIEW); ///akter opor arekta dekha jabe
+    glLoadIdentity();   ///current matrix ke replace kore
+	glMatrixMode(GL_MODELVIEW); ///ektar opor arekta dekha jabe
 	glPushMatrix();
 	glTranslated(0.6,0.05,0);
 	glScalef(.4,.5,0);   ///produces a general scaling along the x, y, and z axes.
